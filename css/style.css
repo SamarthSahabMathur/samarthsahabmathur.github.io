@@ -161,7 +161,9 @@ li {
   .nav-links {
     display: none;
   }
-  @media (max-width: 600px) {
+}
+
+@media (max-width: 600px) {
 
   body {
     font-size: 15px;
@@ -201,18 +203,15 @@ li {
     margin-top: 16px;
   }
 
-  /* HIDE GitHub & LinkedIn on mobile */
   .hero-links a:not(.cv-btn) {
     display: none;
   }
 
-  /* Make CV button the single primary action */
   .cv-btn {
     padding: 12px 24px;
     font-size: 1rem;
   }
 
-  /* Pull image up and reduce size */
   .hero-image {
     margin-top: 16px;
   }
