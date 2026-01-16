@@ -161,5 +161,79 @@ li {
   .nav-links {
     display: none;
   }
+  @media (max-width: 600px) {
+
+  body {
+    font-size: 15px;
+  }
+
+  .navbar {
+    position: static;
+  }
+
+  .hero {
+    padding: 80px 16px 40px;
+  }
+
+  .hero-inner {
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    text-align: center;
+  }
+
+  .hero-content {
+    max-width: 100%;
+  }
+
+  .hero h1 {
+    font-size: 2.1rem;
+    line-height: 1.2;
+    white-space: normal;
+  }
+
+  .subtitle {
+    font-size: 0.95rem;
+  }
+
+  .hero-links {
+    justify-content: center;
+    margin-top: 16px;
+  }
+
+  /* HIDE GitHub & LinkedIn on mobile */
+  .hero-links a:not(.cv-btn) {
+    display: none;
+  }
+
+  /* Make CV button the single primary action */
+  .cv-btn {
+    padding: 12px 24px;
+    font-size: 1rem;
+  }
+
+  /* Pull image up and reduce size */
+  .hero-image {
+    margin-top: 16px;
+  }
+
+  .hero-image img {
+    width: 150px;
+    height: 150px;
+  }
+
+  .container {
+    padding: 30px 16px 60px;
+  }
+
+  section {
+    margin-top: 36px;
+  }
+
+  h2 {
+    font-size: 1.25rem;
+  }
+}
+
 }
 
