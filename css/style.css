@@ -147,7 +147,6 @@ ul {
 li {
   margin-bottom: 6px;
 }
-
 @media (max-width: 768px) {
   .hero-inner {
     flex-direction: column;
@@ -234,5 +233,4 @@ li {
   }
 }
 
-}
 
