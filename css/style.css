@@ -15,7 +15,7 @@ body {
   line-height: 1.65;
 }
 
-/* ================= NAVBAR ================= */
+
 
 .navbar {
   position: fixed;
@@ -57,7 +57,7 @@ body {
   color: #ffffff;
 }
 
-/* ================= HERO ================= */
+
 
 .hero {
   background: linear-gradient(180deg, #0f0f0f 0%, #121212 100%);
@@ -124,7 +124,7 @@ body {
   opacity: 0.9;
 }
 
-/* ================= CONTENT ================= */
+
 
 .container {
   max-width: 900px;
@@ -153,7 +153,6 @@ li {
   margin-bottom: 6px;
 }
 
-/* ================= TABLET ================= */
 
 @media (max-width: 768px) {
   .hero-inner {
@@ -170,7 +169,7 @@ li {
   }
 }
 
-/* ================= MOBILE ================= */
+
 
 @media (max-width: 600px) {
 
