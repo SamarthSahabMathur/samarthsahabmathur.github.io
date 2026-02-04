@@ -15,8 +15,6 @@ body {
   line-height: 1.65;
 }
 
-
-
 .navbar {
   position: fixed;
   top: 0;
@@ -51,13 +49,12 @@ body {
   color: #cfcfcf;
   text-decoration: none;
   font-size: 0.95rem;
+  white-space: nowrap;
 }
 
 .nav-links a:hover {
   color: #ffffff;
 }
-
-
 
 .hero {
   background: linear-gradient(180deg, #0f0f0f 0%, #121212 100%);
@@ -124,8 +121,6 @@ body {
   opacity: 0.9;
 }
 
-
-
 .container {
   max-width: 900px;
   margin: auto;
@@ -153,7 +148,6 @@ li {
   margin-bottom: 6px;
 }
 
-
 @media (max-width: 768px) {
   .hero-inner {
     flex-direction: column;
@@ -165,24 +159,32 @@ li {
   }
 
   .nav-links {
-    display: none;
+    overflow-x: auto;
+    gap: 12px;
   }
 }
 
-
-
 @media (max-width: 600px) {
-
   body {
     font-size: 15px;
   }
 
   .navbar {
-    display: none;
+    display: block;
+  }
+
+  .nav-container {
+    padding: 10px 12px;
+  }
+
+  .nav-links {
+    gap: 10px;
+    font-size: 0.85rem;
+    overflow-x: auto;
   }
 
   .hero {
-    padding: 60px 16px 32px;
+    padding: 90px 16px 32px;
   }
 
   .hero-inner {
@@ -220,10 +222,6 @@ li {
     margin: 0 auto;
     padding: 12px 24px;
     font-size: 1rem;
-  }
-
-  .hero-image {
-    margin-top: 12px;
   }
 
   .hero-image img {
